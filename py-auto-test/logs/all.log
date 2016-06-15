@@ -1,0 +1,753 @@
+2016-04-14 16:05:37,578 [MainThread:3644] [all:42] [DEBUG]- 已注册
+2016-04-14 16:05:51,242 [MainThread:3644] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 36, in member_sign_up
+    browser.find_element_by_id("inp_verify_code").send_keys(sms_num)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 234, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 712, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 201, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: chrome not reachable
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-04-14 16:11:26,042 [MainThread:5128] [all:31] [DEBUG]- 未绑卡
+2016-04-14 16:11:32,604 [MainThread:5128] [all:42] [DEBUG]- 已注册
+2016-04-14 16:11:38,222 [MainThread:5128] [all:31] [DEBUG]- 未绑卡
+2016-04-14 16:11:38,237 [MainThread:5128] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 234, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 712, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 201, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-04-14 16:12:58,257 [MainThread:7308] [all:42] [DEBUG]- 已注册
+2016-04-14 16:13:13,240 [MainThread:7308] [all:42] [DEBUG]- 已注册
+2016-04-14 16:15:47,332 [MainThread:8384] [all:31] [DEBUG]- 未绑卡
+2016-04-14 16:15:47,345 [MainThread:8384] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 234, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 712, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 201, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-04-14 16:15:51,206 [MainThread:8384] [all:31] [DEBUG]- 未绑卡
+2016-04-14 16:15:51,235 [MainThread:8384] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 234, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 712, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 201, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-04-14 16:17:47,228 [MainThread:5308] [all:80] [DEBUG]- 11010519870417184
+2016-04-14 16:17:49,406 [MainThread:5308] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webelement.py", line 75, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webelement.py", line 454, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\webdriver.py", line 201, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python34\lib\site-packages\selenium-2.48.0-py3.4.egg\selenium\webdriver\remote\errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=49.0.2623.112)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-04-14 16:17:54,747 [MainThread:5308] [all:31] [DEBUG]- 未绑卡
+2016-04-14 16:18:02,261 [MainThread:5308] [all:80] [DEBUG]- 11010519870417152
+2016-04-18 18:07:24,336 [MainThread:4672] [all:80] [DEBUG]- 11010519870705291
+2016-04-18 18:07:24,355 [MainThread:4672] [all:15] [INFO]- 短信获取开始!
+
+2016-04-18 18:07:43,406 [MainThread:3980] [all:80] [DEBUG]- 11010519861128212
+2016-04-18 18:07:43,406 [MainThread:3980] [all:15] [INFO]- 短信获取开始!
+
+2016-04-18 18:07:50,732 [MainThread:8020] [all:80] [DEBUG]- 11010519870422245
+2016-04-18 18:07:50,733 [MainThread:8020] [all:15] [INFO]- 短信获取开始!
+
+2016-04-19 10:49:32,456 [MainThread:1700] [all:80] [DEBUG]- 11010519880316151
+2016-04-19 10:49:32,456 [MainThread:1700] [all:15] [INFO]- 短信获取开始!
+
+2016-04-19 10:49:34,419 [MainThread:3092] [all:80] [DEBUG]- 11010519880106102
+2016-04-19 10:49:34,419 [MainThread:3092] [all:15] [INFO]- 短信获取开始!
+
+2016-04-19 10:51:19,158 [MainThread:6220] [all:80] [DEBUG]- 11010519870911254
+2016-04-19 10:51:19,158 [MainThread:6220] [all:14] [INFO]- 短信获取开始!
+
+2016-04-19 10:51:19,194 [MainThread:6220] [all:17] [INFO]- 13120160324的会员卡短信验证码为:152201
+2016-04-19 10:51:19,214 [MainThread:6220] [all:18] [INFO]- 13120160324的消费金融短信验证码为:无对应手机号的短信验证码
+2016-04-19 10:51:19,254 [MainThread:6220] [all:26] [INFO]- 身份证号为：110105198709112545
+
+2016-04-19 10:51:19,254 [MainThread:6220] [all:27] [INFO]- 短信获取结束!
+2016-04-19 11:32:49,995 [MainThread:6792] [all:80] [DEBUG]- 11010519870202259
+2016-04-19 11:32:49,995 [MainThread:6792] [all:14] [INFO]- 短信获取开始!
+
+2016-04-19 11:32:50,020 [MainThread:6792] [all:17] [INFO]- 13900120008的会员卡短信验证码为:779302
+2016-04-19 11:32:50,042 [MainThread:6792] [all:18] [INFO]- 13900120008的消费金融短信验证码为:无对应手机号的短信验证码
+2016-04-19 11:32:50,080 [MainThread:6792] [all:26] [INFO]- 身份证号为：110105198702022597
+
+2016-04-19 11:32:50,080 [MainThread:6792] [all:27] [INFO]- 短信获取结束!
+2016-04-19 11:33:55,310 [MainThread:6460] [all:80] [DEBUG]- 11010519870921165
+2016-04-19 11:33:55,310 [MainThread:6460] [all:14] [INFO]- 短信获取开始!
+
+2016-04-19 11:33:55,336 [MainThread:6460] [all:17] [INFO]- 13900120008的会员卡短信验证码为:779302
+2016-04-19 11:33:55,369 [MainThread:6460] [all:18] [INFO]- 13900120008的消费金融短信验证码为:6412
+2016-04-19 11:33:55,414 [MainThread:6460] [all:26] [INFO]- 身份证号为：110105198709211657
+
+2016-04-19 11:33:55,414 [MainThread:6460] [all:27] [INFO]- 短信获取结束!
+2016-04-22 17:11:16,813 [MainThread:6680] [all:42] [DEBUG]- 已注册
+2016-04-22 17:11:30,903 [MainThread:6680] [all:42] [DEBUG]- 已注册
+2016-05-04 14:29:44,086 [MainThread:7456] [all:80] [DEBUG]- 11010519870702289
+2016-05-04 14:32:37,134 [MainThread:7612] [all:80] [DEBUG]- 11010519860816192
+2016-05-04 14:35:33,104 [MainThread:4332] [all:80] [DEBUG]- 11010519861226157
+2016-05-04 14:35:56,980 [MainThread:7536] [all:80] [DEBUG]- 11010519860602133
+2016-05-04 14:38:17,843 [MainThread:5264] [all:80] [DEBUG]- 11010519870627138
+2016-05-04 14:39:51,922 [MainThread:6168] [all:80] [DEBUG]- 11010519861230209
+2016-05-04 14:58:12,399 [MainThread:6628] [all:80] [DEBUG]- 11010519870429270
+2016-05-11 11:33:19,673 [MainThread:4008] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 49, in member_sign_up
+    memberIdNo = gennerator_const(test_data[2])
+NameError: name 'gennerator_const' is not defined
+2016-05-11 11:34:18,919 [MainThread:7128] [all:31] [DEBUG]- 未绑卡
+2016-05-11 11:34:26,365 [MainThread:7128] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 49, in member_sign_up
+    memberIdNo = gennerator_const(test_data[2])
+NameError: name 'gennerator_const' is not defined
+2016-05-11 11:37:57,774 [MainThread:6368] [all:31] [DEBUG]- 未绑卡
+2016-05-11 11:38:05,262 [MainThread:6368] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 49, in member_sign_up
+    memberIdNo = gennerator_const(test_data[2])
+NameError: name 'gennerator_const' is not defined
+2016-05-11 11:38:54,653 [MainThread:6808] [all:31] [DEBUG]- 未绑卡
+2016-05-11 11:39:02,161 [MainThread:6808] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 49, in member_sign_up
+    memberIdNo = gennerator_const(test_data[2])
+NameError: name 'gennerator_const' is not defined
+2016-05-11 11:40:24,604 [MainThread:4040] [all:31] [DEBUG]- 未绑卡
+2016-05-11 11:40:32,081 [MainThread:4040] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 49, in member_sign_up
+    memberIdNo = gennerator_const(test_data[2])
+NameError: name 'gennerator_const' is not defined
+2016-05-11 11:40:59,681 [MainThread:7004] [all:31] [DEBUG]- 未绑卡
+2016-05-11 11:41:07,211 [MainThread:7004] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 49, in member_sign_up
+    memberIdNo = gennerator_const(test_data[2])
+NameError: name 'gennerator_const' is not defined
+2016-05-11 11:42:53,807 [MainThread:5964] [all:31] [DEBUG]- 未绑卡
+2016-05-11 11:43:01,306 [MainThread:5964] [all:80] [DEBUG]- 11010519870514184
+2016-05-11 14:51:19,255 [MainThread:3040] [all:80] [DEBUG]- 11010519870514151
+2016-05-11 16:03:58,084 [MainThread:7368] [all:42] [DEBUG]- 已注册
+2016-05-11 16:04:31,219 [MainThread:7952] [all:42] [DEBUG]- 已注册
+2016-05-11 16:05:19,268 [MainThread:2984] [all:42] [DEBUG]- 已注册
+2016-05-11 16:40:52,540 [MainThread:244] [all:80] [DEBUG]- 11010519870514276
+2016-05-12 11:29:49,434 [MainThread:2904] [all:80] [DEBUG]- 11010519870515209
+2016-05-12 15:17:55,686 [MainThread:7032] [all:80] [DEBUG]- 11010519870515140
+2016-05-12 15:19:01,573 [MainThread:6024] [all:31] [DEBUG]- 未绑卡
+2016-05-12 15:19:01,591 [MainThread:6024] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.94)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-05-18 10:20:31,061 [MainThread:5480] [all:80] [DEBUG]- 11010519870521279
+2016-05-18 11:16:05,249 [MainThread:4968] [all:80] [DEBUG]- 11010519870521116
+2016-05-18 14:49:19,681 [MainThread:6420] [all:80] [DEBUG]- 11010519870521135
+2016-05-18 15:53:24,137 [MainThread:7212] [all:80] [DEBUG]- 11010519870521156
+2016-05-18 16:07:47,285 [MainThread:7648] [all:80] [DEBUG]- 11010519870521205
+2016-05-18 16:07:49,483 [MainThread:7648] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-05-18 16:08:12,485 [MainThread:7144] [all:31] [DEBUG]- 未绑卡
+2016-05-18 16:08:20,109 [MainThread:7144] [all:80] [DEBUG]- 11010519870521271
+2016-05-18 16:14:39,728 [MainThread:6544] [all:80] [DEBUG]- 11010519870521105
+2016-05-18 16:41:04,063 [MainThread:4340] [all:80] [DEBUG]- 11010519870521190
+2016-05-18 16:59:02,963 [MainThread:6068] [all:80] [DEBUG]- 11010519870521172
+2016-05-19 14:24:32,923 [MainThread:7932] [all:31] [DEBUG]- 未绑卡
+2016-05-19 14:24:32,983 [MainThread:7932] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-05-19 14:25:39,175 [MainThread:6724] [all:80] [DEBUG]- 11010519870522168
+2016-05-20 13:59:11,390 [MainThread:6856] [all:31] [DEBUG]- 未绑卡
+2016-05-20 13:59:11,485 [MainThread:6856] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-05-20 14:00:35,351 [MainThread:6480] [all:80] [DEBUG]- 11010519870523190
+2016-05-20 14:18:54,700 [MainThread:6856] [all:80] [DEBUG]- 11010519870523272
+2016-05-20 14:21:15,854 [MainThread:5284] [all:80] [DEBUG]- 11010519870523126
+2016-05-23 10:00:48,901 [MainThread:5244] [all:80] [DEBUG]- 11010519870526227
+2016-05-23 10:07:49,539 [MainThread:5940] [all:80] [DEBUG]- 11010519870526215
+2016-05-23 10:08:56,708 [MainThread:1724] [all:80] [DEBUG]- 11010519870526215
+2016-05-23 10:08:58,825 [MainThread:1724] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-05-23 10:09:26,501 [MainThread:5832] [all:31] [DEBUG]- 未绑卡
+2016-05-23 10:09:33,805 [MainThread:5832] [all:80] [DEBUG]- 11010519870526160
+2016-05-23 10:10:43,000 [MainThread:5532] [all:80] [DEBUG]- 11010519870526133
+2016-05-24 10:08:34,963 [MainThread:5976] [all:80] [DEBUG]- 11010519870527269
+2016-05-24 10:26:18,568 [MainThread:5804] [all:80] [DEBUG]- 11010519870527162
+2016-05-27 09:54:36,592 [MainThread:2896] [all:31] [DEBUG]- 未绑卡
+2016-05-27 09:54:36,623 [MainThread:2896] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-05-27 09:59:30,747 [MainThread:5084] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\pymysql\connections.py", line 875, in connect
+    (self.host, self.port), self.connect_timeout)
+  File "D:\Program Files (x86)\Python35-32\lib\socket.py", line 711, in create_connection
+    raise err
+  File "D:\Program Files (x86)\Python35-32\lib\socket.py", line 702, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 35, in member_sign_up
+    sms_num = sms_object.get_sms_num_from_db(test_data[0])
+  File "F:\py-auto-test\common\util\GetSms.py", line 44, in get_sms_num_from_db
+    data_list = mysql_object.get_mysql_data(select_sql)
+  File "F:\py-auto-test\common\dbHandles\MysqlHandler.py", line 21, in get_mysql_data
+    port=self.__mysql_port, db=self.__mysql_db, charset=self.__charset)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\pymysql\__init__.py", line 88, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\pymysql\connections.py", line 679, in __init__
+    self.connect()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\pymysql\connections.py", line 922, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on '192.168.1.29' ([WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。)")
+2016-05-27 10:00:34,869 [MainThread:6540] [all:31] [DEBUG]- 未绑卡
+2016-05-27 10:00:42,178 [MainThread:6540] [all:80] [DEBUG]- 11010519870530274
+2016-05-30 10:23:20,520 [MainThread:6092] [all:31] [DEBUG]- 未绑卡
+2016-05-30 10:23:20,550 [MainThread:6092] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-05-30 10:25:23,627 [MainThread:5272] [all:80] [DEBUG]- 11010519870602224
+2016-05-30 10:25:25,745 [MainThread:5272] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-05-30 10:25:39,460 [MainThread:3824] [all:31] [DEBUG]- 未绑卡
+2016-05-30 10:25:46,755 [MainThread:3824] [all:80] [DEBUG]- 11010519870602295
+2016-05-30 10:25:48,869 [MainThread:3824] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 14:56:26,351 [MainThread:7548] [all:31] [DEBUG]- 未绑卡
+2016-06-01 14:56:26,421 [MainThread:7548] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 14:57:09,353 [MainThread:5388] [all:31] [DEBUG]- 未绑卡
+2016-06-01 14:57:09,366 [MainThread:5388] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 14:57:46,096 [MainThread:4760] [all:31] [DEBUG]- 未绑卡
+2016-06-01 14:57:46,110 [MainThread:4760] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 15:25:36,654 [MainThread:7756] [all:31] [DEBUG]- 未绑卡
+2016-06-01 15:25:36,668 [MainThread:7756] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 15:26:17,651 [MainThread:8720] [all:80] [DEBUG]- 11010519870604295
+2016-06-01 15:26:19,778 [MainThread:8720] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 17:22:49,876 [MainThread:7224] [all:31] [DEBUG]- 未绑卡
+2016-06-01 17:22:49,906 [MainThread:7224] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 17:23:34,356 [MainThread:7504] [all:31] [DEBUG]- 未绑卡
+2016-06-01 17:23:34,388 [MainThread:7504] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 17:24:14,681 [MainThread:8972] [all:31] [DEBUG]- 未绑卡
+2016-06-01 17:24:14,707 [MainThread:8972] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 17:37:18,355 [MainThread:6380] [all:31] [DEBUG]- 未绑卡
+2016-06-01 17:37:18,395 [MainThread:6380] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-01 17:39:13,206 [MainThread:7808] [all:80] [DEBUG]- 11010519870604251
+2016-06-01 17:39:15,372 [MainThread:7808] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-02 09:51:22,620 [MainThread:5456] [all:31] [DEBUG]- 未绑卡
+2016-06-02 09:51:22,664 [MainThread:5456] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-02 09:52:12,508 [MainThread:5776] [all:80] [DEBUG]- 11010519870605293
+2016-06-02 09:53:40,824 [MainThread:4988] [all:31] [DEBUG]- 未绑卡
+2016-06-02 09:53:40,827 [MainThread:4988] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-02 10:55:52,327 [MainThread:5176] [all:80] [DEBUG]- 11010519870605176
+2016-06-02 11:33:26,171 [MainThread:2580] [all:31] [DEBUG]- 未绑卡
+2016-06-02 11:33:26,188 [MainThread:2580] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-02 11:36:36,030 [MainThread:6072] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+AttributeError: 'NoneType' object has no attribute 'send_keys'
+2016-06-02 11:36:54,061 [MainThread:6528] [all:31] [DEBUG]- 未绑卡
+2016-06-02 11:37:01,517 [MainThread:6528] [all:80] [DEBUG]- 11010519870605177
+2016-06-02 11:37:03,680 [MainThread:6528] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-02 11:37:14,495 [MainThread:6632] [all:31] [DEBUG]- 未绑卡
+2016-06-02 11:37:21,994 [MainThread:6632] [all:80] [DEBUG]- 11010519870605272
+2016-06-02 11:37:24,158 [MainThread:6632] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-02 17:25:44,331 [MainThread:6848] [all:80] [DEBUG]- 11010519870605285
+2016-06-02 18:17:44,749 [MainThread:7092] [all:80] [DEBUG]- 11010519870605132
+2016-06-03 14:16:26,715 [MainThread:7752] [all:80] [DEBUG]- 11010519870606155
+2016-06-03 15:48:13,574 [MainThread:6820] [all:80] [DEBUG]- 11010519870606120
+2016-06-03 17:35:59,280 [MainThread:6172] [all:80] [DEBUG]- 11010519870606270
+2016-06-06 10:28:06,214 [MainThread:4376] [all:31] [DEBUG]- 未绑卡
+2016-06-06 10:28:06,229 [MainThread:4376] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-06 10:35:34,258 [MainThread:5252] [all:80] [DEBUG]- 11010519870609101
+2016-06-06 11:23:17,997 [MainThread:7100] [all:80] [DEBUG]- 11010519870609141
+2016-06-06 14:05:00,593 [MainThread:8004] [all:31] [DEBUG]- 未绑卡
+2016-06-06 14:05:00,613 [MainThread:8004] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-06 14:06:03,592 [MainThread:6460] [all:80] [DEBUG]- 11010519870609221
+2016-06-06 14:40:30,915 [MainThread:3532] [all:80] [DEBUG]- 11010519870609265
+2016-06-06 15:41:02,732 [MainThread:6804] [all:80] [DEBUG]- 11010519870609215
+2016-06-06 15:41:04,923 [MainThread:6804] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 55, in member_sign_up
+    browser.find_element_by_xpath("//li/a[@id='confirmBtn']").click()
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 74, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 457, in _execute
+    return self._parent.execute(command, params)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-06 15:41:16,335 [MainThread:5412] [all:31] [DEBUG]- 未绑卡
+2016-06-06 15:41:23,879 [MainThread:5412] [all:80] [DEBUG]- 11010519870609174
+2016-06-06 15:51:52,166 [MainThread:6360] [all:80] [DEBUG]- 11010519870609188
+2016-06-06 16:09:21,451 [MainThread:2408] [all:80] [DEBUG]- 11010519870609225
+2016-06-08 10:17:56,677 [MainThread:5676] [all:80] [DEBUG]- 11010519870611246
+2016-06-08 11:19:26,730 [MainThread:6772] [all:31] [DEBUG]- 未绑卡
+2016-06-08 11:19:26,743 [MainThread:6772] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-08 11:20:20,260 [MainThread:6952] [all:80] [DEBUG]- 11010519870611208
+2016-06-08 14:08:47,021 [MainThread:5704] [all:31] [DEBUG]- 未绑卡
+2016-06-08 14:08:47,038 [MainThread:5704] [all:62] [ERROR]- 发现错误
+Traceback (most recent call last):
+  File "F:\py-auto-test\lib\MemberSignUp.py", line 32, in member_sign_up
+    browser.find_element_by_id("memberPhone").send_keys(test_data[0])
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 266, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 744, in find_element
+    {'using': by, 'value': value})['value']
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 233, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files (x86)\Python35-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 194, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element
+  (Session info: chrome=50.0.2661.102)
+  (Driver info: chromedriver=2.13.307647 (5a7d0541ebc58e69994a6fb2ed930f45261f3c29),platform=Windows NT 6.1 SP1 x86_64)
+
+2016-06-08 14:10:05,208 [MainThread:8168] [all:80] [DEBUG]- 11010519870611111
+2016-06-08 14:53:25,639 [MainThread:5668] [all:80] [DEBUG]- 11010519870611228
